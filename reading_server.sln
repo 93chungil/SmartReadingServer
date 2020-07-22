@@ -3,7 +3,47 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30114.105
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "reading_server", "reading_server.pyproj", "{55060B21-FCF8-4A4F-B095-501CB0FBBAFD}"
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "reading_server", "reading_server\reading_server.pyproj", "{55060B21-FCF8-4A4F-B095-501CB0FBBAFD}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "static", "reading_server\static\", "{67F7F909-BEE1-4077-BDAE-982320DAF846}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_10520"
+		Debug.AspNetCompiler.PhysicalPath = "reading_server\static\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_10520\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_10520"
+		Release.AspNetCompiler.PhysicalPath = "reading_server\static\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_10520\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "10520"
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "templates", "reading_server\templates\", "{D4F1D38C-F4BD-4292-9240-35EE66AD73B4}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_10525"
+		Debug.AspNetCompiler.PhysicalPath = "reading_server\templates\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_10525\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_10525"
+		Release.AspNetCompiler.PhysicalPath = "reading_server\templates\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_10525\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "10525"
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +55,14 @@ Global
 		{55060B21-FCF8-4A4F-B095-501CB0FBBAFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{55060B21-FCF8-4A4F-B095-501CB0FBBAFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{55060B21-FCF8-4A4F-B095-501CB0FBBAFD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67F7F909-BEE1-4077-BDAE-982320DAF846}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67F7F909-BEE1-4077-BDAE-982320DAF846}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67F7F909-BEE1-4077-BDAE-982320DAF846}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{67F7F909-BEE1-4077-BDAE-982320DAF846}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{D4F1D38C-F4BD-4292-9240-35EE66AD73B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4F1D38C-F4BD-4292-9240-35EE66AD73B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4F1D38C-F4BD-4292-9240-35EE66AD73B4}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4F1D38C-F4BD-4292-9240-35EE66AD73B4}.Release|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
